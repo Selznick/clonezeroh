@@ -7,7 +7,7 @@ then
 
 cd ZeroNet-master
 
-python2 zeronet.py  --tor disable --ui_ip "*"  --ui_port $PORT --ui_password $PASS
+python2 zeronet.py  --tor disable --ui_ip "*"  --ui_port 8080 --ui_password $PASS
 
 else
 
